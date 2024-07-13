@@ -1,16 +1,7 @@
 <div class="w-full relative bg-stone-200">
-    <!--Header toolbar-->
-    <div class="w-full min-h-24 flex flex-row items-center sticky top-0 bg-stone-200 z-10">
-        <div class="w-1/3 grid">
-            <mat-icon class="place-self-start ml-10 font-bold scale-125">keyboard_backspace</mat-icon>
-        </div>
-        <div class="w-1/3 grid">
-            <span class="place-self-center text-2xl">Home</span>
-        </div>
-        <div class="w-1/3 grid">
-            <mat-icon class="place-self-end mr-10 font-bold scale-125">person</mat-icon>
-        </div>
-    </div>
+    <!--Toolbar header-->
+    <app-toolbar-header></app-toolbar-header>
+    <!--Welcome section-->
     <div class="w-full min-h-24">
         <div class="ml-4">
             <span class="text-lg text-orange-600 font-semibold tracking-wider">Hi Filip</span>
@@ -19,7 +10,6 @@
             <p class="font-bold">There is no tomorrow!!!</p>
         </div>
     </div>
-    <!--Welcome section-->
     <div class="grid justify-items-center">
         <div class="w-5/6 min-h-56 flex flex-row bg-orange-600 rounded-xl">
             <div class="w-2/3">
@@ -34,7 +24,9 @@
                     <span class="text-white text-sm">Incline Dumbbell Press...</span>
                 </div>
                 <div class="mx-5 mt-2 flex flex-row">
-                    <mat-icon class="pr-8 text-white scale-125">play_circle_outline</mat-icon>
+                    <button> <!--TODO-->
+                        <mat-icon class="pr-8 text-white scale-125">play_circle_outline</mat-icon>
+                    </button>
                     <p class="text-white text-lg font-semibold">Start your training</p>
                 </div>
             </div>
@@ -49,23 +41,27 @@
     <div class="w-full grid justify-items-center mt-12">
         <!--See all Exercises-->
         <div class="w-5/6 flex flex-row justify-between bg-orange-500/30 rounded-md">
-            <p class="text-xl text-white font-bold px-2 pt-2">See all Exercises</p>  
-            <div class="flex items-center">
-                <span class="text-base text-white font-semibold">Check out</span>
-                <mat-icon class="text-white font-bold m-2">list</mat-icon>
-            </div>
+            <p class="text-xl text-white font-bold px-2 pt-2">See all Exercises</p> 
+            <button> <!--TODO-->
+                <div class="flex items-center">
+                    <span class="text-base text-white font-semibold">Check out</span>
+                    <mat-icon class="text-white font-bold m-2">list</mat-icon>
+                </div>  
+            </button> 
         </div>
         <!--Exercises list-->
-        <div class="w-full h-64 grid justify-items-center mt-6 mb-10">
-            <div class="w-5/6 overflow-auto">
+        <div class="w-full min-h-64 grid justify-items-center mt-6 mb-10">
+            <div class="w-5/6 h-64 overflow-auto xl: mb-24">
                 <div class="min-h-28 flex justify-around bg-white rounded-md my-2">
                     <img src="assets/chest-exercise.png" alt="" class="h-20 self-center">
                     <div class="self-center flex flex-col">
                         <span class="text-xl text-orange-600 font-bold tracking-wider py-1">Bench Press</span>
-                        <div class="flex flex-row">
-                            <span class="text-base font-semibold pl-1">Chest Workout</span>
-                            <mat-icon class="font-bold ml-1">arrow_right</mat-icon>
-                        </div>
+                        <button> <!--TODO-->
+                            <div class="flex flex-row">
+                                <span class="text-base font-semibold pl-1">Chest Workout</span>
+                                <mat-icon class="font-bold ml-1">arrow_right</mat-icon>
+                            </div>
+                        </button>
                         <div class="flex flex-row">
                             <span class="text-base font-semibold self-end">About 1h</span>
                             <mat-icon class="text-orange-600 mb-1 ml-2">watch_later</mat-icon>
@@ -76,10 +72,12 @@
                     <img src="assets/squat.png" alt="" class="h-20 self-center">
                     <div class="self-center flex flex-col">
                         <span class="text-xl text-orange-600 font-bold tracking-wider py-1">Squat</span>
-                        <div class="flex flex-row">
-                            <span class="text-base font-semibold pl-1">Legs Workout</span>
-                            <mat-icon class="font-bold ml-1">arrow_right</mat-icon>
-                        </div>
+                        <button> <!--TODO-->
+                            <div class="flex flex-row">
+                                <span class="text-base font-semibold pl-1">Legs Workout</span>
+                                <mat-icon class="font-bold ml-1">arrow_right</mat-icon>
+                            </div>
+                        </button>
                         <div class="flex flex-row">
                             <span class="text-base font-semibold self-end">About 1.5h</span>
                             <mat-icon class="text-orange-600 mb-1 ml-2">watch_later</mat-icon>
@@ -90,10 +88,12 @@
                     <img src="assets/barbell-curl.png" alt="" class="h-20 self-center scale-125">
                     <div class="self-center flex flex-col">
                         <span class="text-xl text-orange-600 font-bold tracking-wider py-1">Barbell Curl</span>
-                        <div class="flex flex-row">
-                            <span class="text-base font-semibold pl-1">Arms Workout</span>
-                            <mat-icon class="font-bold ml-1">arrow_right</mat-icon>
-                        </div>
+                        <button> <!--TODO-->
+                            <div class="flex flex-row">
+                                <span class="text-base font-semibold pl-1">Arms Workout</span>
+                                <mat-icon class="font-bold ml-1">arrow_right</mat-icon>
+                            </div>
+                        </button>
                         <div class="flex flex-row">
                             <span class="text-base font-semibold self-end">About 1h</span>
                             <mat-icon class="text-orange-600 mb-1 ml-2">watch_later</mat-icon>
@@ -104,10 +104,12 @@
                     <img src="assets/sit-ups.png" alt="" class="h-20 self-center scale">
                     <div class="self-center flex flex-col">
                         <span class="text-xl text-orange-600 font-bold tracking-wider py-1">Sit Ups</span>
-                        <div class="flex flex-row">
-                            <span class="text-base font-semibold pl-1">Abs Workout</span>
-                            <mat-icon class="font-bold ml-1">arrow_right</mat-icon>
-                        </div>
+                        <button> <!--TODO-->
+                            <div class="flex flex-row">
+                                <span class="text-base font-semibold pl-1">Abs Workout</span>
+                                <mat-icon class="font-bold ml-1">arrow_right</mat-icon>
+                            </div>
+                        </button>
                         <div class="flex flex-row">
                             <span class="text-base font-semibold self-end">About 1h</span>
                             <mat-icon class="text-orange-600 mb-1 ml-2">watch_later</mat-icon>

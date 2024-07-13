@@ -8,14 +8,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
-import { ToolbarBottomComponent } from './toolbar-bottom/toolbar-bottom.component'
+import { ToolbarBottomComponent } from './toolbar-bottom/toolbar-bottom.component';
+import { WorkoutPageComponent } from './workout-page/workout-page.component';
+import { ToolbarHeaderComponent } from './toolbar-header/toolbar-header.component'
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ToolbarBottomComponent
+    ToolbarBottomComponent,
+    WorkoutPageComponent,
+    ToolbarHeaderComponent
   ],
   imports: [
     BrowserModule,
