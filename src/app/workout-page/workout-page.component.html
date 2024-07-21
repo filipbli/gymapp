@@ -1,3 +1,142 @@
-<div class="w-full relative bg-stone-200">
+<div class="w-full h-full xl:h-full relative bg-stone-200">
     <app-toolbar-header></app-toolbar-header>
+    <!--Date section-->
+    <div class="w-full min-h-24 grid grid-cols-7 justify-items-center items-center mb-8">
+        <div class="grid h-14 bg-orange-600/40 rounded-lg text-balance">
+            <mat-icon class="place-self-center text-white font-semibold mx-1 scale-150">arrow_left</mat-icon>
+        </div>
+        <div class="grid h-14 bg-orange-600/40 rounded-lg">
+            <span class="place-self-center text-lg text-white font-semibold tracking-widest px-3">15</span>
+            <span class="place-self-center text-lg text-white font-semibold tracking-widest px-3">07</span>
+        </div>
+        <div class="grid h-14 bg-orange-600/40 rounded-lg">
+            <span class="place-self-center text-lg text-white font-semibold tracking-widest px-3">16</span>
+            <span class="place-self-center text-lg text-white font-semibold tracking-widest px-3">07</span>
+        </div>
+        <div class="grid h-14 bg-orange-600/40 rounded-lg">
+            <span class="place-self-center text-lg text-white font-semibold tracking-widest px-3">17</span>
+            <span class="place-self-center text-lg text-white font-semibold tracking-widest px-3">07</span>
+        </div>
+        <div class="grid h-14 bg-orange-600 rounded-lg">
+            <span class="place-self-center text-lg text-white font-semibold tracking-widest px-3">18</span>
+            <span class="place-self-center text-lg text-white font-semibold tracking-widest px-3">07</span>
+        </div>
+        <div class="grid h-14 bg-orange-600/40 rounded-lg">
+            <span class="place-self-center text-lg text-white font-semibold tracking-widest px-3">19</span>
+            <span class="place-self-center text-lg text-white font-semibold tracking-widest px-3">07</span>
+        </div>
+        <div class="grid h-14 bg-orange-600/40 rounded-lg">
+            <mat-icon class="place-self-center text-white font-semibold mx-1 scale-150">arrow_right</mat-icon>
+        </div>
+    </div>
+    <!--Body part section-->
+    <div class="flex justify-center">
+        <div class="w-5/6 min-h-40 flex flex-row bg-orange-600 shadow-lg shadow-gray-600 rounded-t-xl">
+            <div class="w-2/3 flex flex-col">
+                <div class="w-2/3 mt-5 mx-5">
+                    <span class="text-white text-lg font-semibold">Today's Chest Day</span>
+                </div>
+                <div class="mx-5 my-1">
+                    <span class="text-white text-base">Lets start your training</span>
+                </div>
+                <div class="flex flex-row mx-5 mt-8">
+                    <div class="self-center mr-2">
+                        <mat-icon class="text-white scale-125">watch_later</mat-icon>
+                    </div>
+                    <div class="text-pretty">
+                        <span class="text-white text-sm font-bold">
+                            Training should take about 1h
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="w-1/3 flex">
+                <div class="self-center">
+                    <img src="assets/chest-cartoon.png" alt="Chest muscles image" class="min-h-32 scale-150 xl:scale-125">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Exercises section-->
+    <div class="flex flex-col place-items-center bg-stone-200">
+        <!--Drop down list-->
+        <div class="w-5/6 min-h-12 flex bg-stone-200 shadow-lg shadow-gray-400">
+            <div class="w-full flex flex-row">
+                <div class="w-2/3 grid">
+                    <span class="place-self-center justify-self-start text-lg text-black font-semibold p-2">Check all exercises</span>
+                </div>
+                <div class="w-1/3 grid">
+                    <mat-icon class="place-self-center justify-self-end text-black m-2 scale-125">list</mat-icon>
+                </div>
+            </div>
+        </div>
+        <!--Exercises-->
+        <div class="w-5/6 flex flex-col bg-stone-200 shadow-lg shadow-gray-400 rounded-b-xl mb-40 pb-2">
+            <div class="w-full h-24 flex justify-around bg-white my-1 rounded-md">
+                <div class="w-1/3 flex">
+                    <img src="assets/chest-exercise.png" alt="Bench press" class="p-2 self-center">
+                </div>
+                <div class="w-2/3 flex flex-col">
+                    <span class="self-center text-xl text-orange-600 font-semibold font-mono tracking-wider py-1">Bench press</span>
+                    <div class="flex flex-row">
+                        <span class="self-start text-base font-semibold font-mono px-2">Weight[kg] 70</span>
+                        <span class="self-start text-base font-semibold font-mono px-2">Reps 8</span>    
+                    </div>
+                    <div class="flex flex-row">
+                        <span class="self-start text-base font-semibold font-mono px-2">Series</span>
+                        <div class="grid grid-cols-5 gap-4">
+                            <input type="checkbox" name="" id="" class="scale-150">
+                            <input type="checkbox" name="" id="" class="scale-150">
+                            <input type="checkbox" name="" id="" class="scale-150">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-24 flex justify-around bg-white my-1 rounded-md">
+                <div class="w-1/3 flex">
+                    <img src="assets/barbell-curl.png" alt="Barbell curl" class="p-4 self-center">
+                </div>
+                <div class="w-2/3 flex flex-col">
+                    <span class="self-center text-xl text-orange-600 font-semibold font-mono tracking-wider py-1">Barbell curl</span>
+                    <div class="flex flex-row">
+                        <span class="self-start text-base font-semibold font-mono px-2">Weight[kg] 27</span>
+                        <span class="self-start text-base font-semibold font-mono px-2">Reps 10</span>    
+                    </div>
+                    <div class="flex flex-row">
+                        <span class="self-start text-base font-semibold font-mono px-2">Series</span>
+                        <div class="grid grid-cols-5 gap-4">
+                            <input type="checkbox" name="" id="" class="scale-150">
+                            <input type="checkbox" name="" id="" class="scale-150">
+                            <input type="checkbox" name="" id="" class="scale-150">
+                            <input type="checkbox" name="" id="" class="scale-150">
+                            <input type="checkbox" name="" id="" class="scale-150">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-24 flex justify-around bg-white my-1 rounded-md">
+                <div class="w-1/3 flex">
+                    <img src="assets/sit-ups.png" alt="Sit ups" class="p-2 self-center">
+                </div>
+                <div class="w-2/3 flex flex-col">
+                    <span class="self-center text-xl text-orange-600 font-semibold font-mono tracking-wider py-1">Sit ups</span>
+                    <div class="flex flex-row">
+                        <span class="self-start text-base font-semibold font-mono px-2">Weight[kg]</span>
+                        <span class="self-start text-base font-semibold font-mono px-2">Reps 10</span>    
+                    </div>
+                    <div class="flex flex-row">
+                        <span class="self-start text-base font-semibold font-mono px-2">Series</span>
+                        <div class="grid grid-cols-5 gap-4">
+
+                            <input type="checkbox" name="" id="" class="scale-150">
+                            <input type="checkbox" name="" id="" class="scale-150">
+                            <input type="checkbox" name="" id="" class="scale-150">
+                            <input type="checkbox" name="" id="" class="scale-150">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-toolbar-bottom></app-toolbar-bottom>
 </div>
