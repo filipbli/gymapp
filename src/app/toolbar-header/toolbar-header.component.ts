@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-toolbar-header',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./toolbar-header.component.css']
 })
 export class ToolbarHeaderComponent {
+
+  constructor( private location: Location) {
+
+  }
+
+  goBack() {
+    this.location.back();
+  }
 
 }

@@ -10,7 +10,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { ToolbarBottomComponent } from './toolbar-bottom/toolbar-bottom.component';
 import { WorkoutPageComponent } from './workout-page/workout-page.component';
-import { ToolbarHeaderComponent } from './toolbar-header/toolbar-header.component'
+import { ToolbarHeaderComponent } from './toolbar-header/toolbar-header.component';
+import { ExerciseComponent } from './exercise/exercise.component';
+import { UserComponent } from './user/user.component'
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { ToolbarHeaderComponent } from './toolbar-header/toolbar-header.componen
     HomeComponent,
     ToolbarBottomComponent,
     WorkoutPageComponent,
-    ToolbarHeaderComponent
+    ToolbarHeaderComponent,
+    ExerciseComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,

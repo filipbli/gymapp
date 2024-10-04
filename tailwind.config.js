@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bench-press__image': "url('/assets/aibenchpress.jpeg')",
+        'barbell-curl__image': "url('/assets/aibarbellcurl.jpeg')"
+      }
+    },
   },
   plugins: [],
 }
