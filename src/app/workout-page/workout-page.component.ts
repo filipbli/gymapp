@@ -17,7 +17,7 @@ export class WorkoutPageComponent implements OnInit{
   month: string = '';
 
   dateArray: Array<Array<string>> = [];
-  currentDate: string | undefined = '';
+  choosenDate: string | undefined = '';
 
   index: number = 0;
 
@@ -25,26 +25,18 @@ export class WorkoutPageComponent implements OnInit{
 
   ngOnInit(): void {
     this.setDate();
-    this.currentDate = this.date.getDate().toLocaleString();
-
-    console.log(this.currentDate);
-    console.log(this.dateArray[0][0]);
   }
 
   nextIndex() {
-    this.index++;
+    this.index += 5;
     this.changeDateArray();
-    this.date.setDate(this.date.getDate() + 1);
-
-    this.currentDate = this.date.getDate().toString();
+    this.date.setDate(this.date.getDate() + 5);
   }
 
   prevIndex() {
-    this.index--;
+    this.index -= 5;
     this.changeDateArray();
-    this.date.setDate(this.date.getDate() - 1);
-
-    this.currentDate = this.date.getDate().toString();
+    this.date.setDate(this.date.getDate() - 5);
   }
 
   setDate() {

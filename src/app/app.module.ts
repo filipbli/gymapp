@@ -12,7 +12,8 @@ import { ToolbarBottomComponent } from './toolbar-bottom/toolbar-bottom.componen
 import { WorkoutPageComponent } from './workout-page/workout-page.component';
 import { ToolbarHeaderComponent } from './toolbar-header/toolbar-header.component';
 import { ExerciseComponent } from './exercise/exercise.component';
-import { UserComponent } from './user/user.component'
+import { UserComponent } from './user/user.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { UserComponent } from './user/user.component'
     BrowserAnimationsModule,
     MatSlideToggleModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

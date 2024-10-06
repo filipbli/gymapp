@@ -1,4 +1,4 @@
-<div class="w-full relative bg-stone-200">
+<div class="w-full h-full relative bg-stone-200">
     <!--Welcome section-->
     <div class="w-full min-h-24">
         <div class="ml-4">
@@ -40,12 +40,12 @@
         <!--See all Exercises-->
         <div class="w-5/6 flex flex-row justify-between bg-orange-500/30 rounded-md">
             <p class="text-xl text-white font-bold px-2 pt-2">See all Exercises</p> 
-            <button> <!--TODO-->
+            <a class="grid place-self-center" routerLink="/exercises" routerLinkActive="active" ariaCurrentWhenActive="page"> <!--TODO-->
                 <div class="flex items-center">
                     <span class="text-base text-white font-semibold">Check out</span>
                     <mat-icon class="text-white font-bold m-2">list</mat-icon>
                 </div>  
-            </button> 
+            </a> 
         </div>
         <!--Exercises list-->
         <div class="w-full min-h-64 grid justify-items-center mt-6 mb-10">
