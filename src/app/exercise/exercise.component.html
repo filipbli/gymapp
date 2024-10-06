@@ -1,0 +1,37 @@
+<div class="w-full min-h-full grid bg-stone-200">
+    <!--Banner-->
+    <div class="w-full grid">
+        <div class="w-5/6 min-h-20 grid place-self-center bg-orange-600 rounded-md">
+            <span class="text-white text-3xl font-semibold p-5">Exercises</span>
+        </div>
+    </div>
+    <!--All exercises list-->
+    <div class="w-full min-h-full mt-8 mb-20">
+        <div *ngFor="let part of bodyPart; index as i" class="grid" [ngStyle]="{'margin': areListsExpanded[i] ? '24px 0px 24px 0px' : '12px 0px 12px 0px'}">
+            <div class="w-5/6 h-10 flex place-self-center bg-stone-300/40 shadow-lg shadow-stone-400" 
+                [ngStyle]="{'border-radius': areListsExpanded[i] ? '10px 10px 0px 0px' : '10px 10px 10px 10px'}">
+                <div class="w-full grid place-content-center">
+                    <span class="text-xl text-nowrap font-mono font-semibold">{{part}}</span>
+                </div>
+                <div class="w-1/3 grid">
+                    <mat-icon (click)="expandListById(i)" class="text-white place-self-center">menu</mat-icon>
+                </div>
+            </div>
+            <div *ngIf="areListsExpanded[i]" class="w-5/6 min-h-24 flex-col place-self-center bg-white shadow-lg shadow-stone-400">
+                <div class="flex place-content-center last:mb-2" *ngFor="let exercise of exercises">
+                    <div *ngIf="exercise.bodyPartId == i + 1" class="w-full h-24 flex bg-stone-200 mx-3 my-3">
+                        <div class="w-2/3 flex-col">
+                            <div class="w-full h-1/3 grid">
+                                <span class="grid self-end text-2xl font-mono font-bold p-2">{{exercise.id}}.</span>
+                            </div>
+                            <div class="w-full h-2/3 grid">
+                                <span class="grid self-center text-base text-pretty leading-4 px-2">{{exercise.name}}</span>
+                            </div>
+                        </div>
+                        <div class="w-1/3 h-full flex bg-bench-press__image bg-contain bg-center bg-no-repeat rounded-3xl"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

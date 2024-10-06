@@ -1,0 +1,29 @@
+{
+    "exercises": [
+        {
+            "id":1,
+            "name":"Wyciskanie sztangi leżąc",
+            "imageUrl":"bench-press__image",
+            "bodyPartId":1
+        },
+        {
+           "id":2,
+            "name":"Wyciskanie sztangi na skosie",
+            "imageUrl":"bench-incline__image",
+            "bodyPartId":1 
+        },
+        {
+            "id":3,
+            "name":"Uginanie ramion ze sztangą",
+            "imageUrl":"barbell-curl__image",
+            "bodyPartId":2
+        },
+        {
+            "id":4,
+            "name":"Uginanie ramion ze sztangą",
+            "imageUrl":"barbell-curl__image",
+            "bodyPartId":3
+
+        }
+    ]
+}
