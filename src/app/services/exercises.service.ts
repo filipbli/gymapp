@@ -30,6 +30,8 @@ export class ExercisesService {
     return this.exercises$;
   }
 
-
+  getExercisesById(index: number): Observable<Exercise> {
+    return this.httpClient.get<Exercise>(this.exercisesUrl + '/' + index.toString());
+  }
 
 }

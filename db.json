@@ -1,29 +1,70 @@
 {
     "exercises": [
         {
-            "id":1,
+            "id":"1",
             "name":"Wyciskanie sztangi leżąc",
             "imageUrl":"bench-press__image",
             "bodyPartId":1
         },
         {
-           "id":2,
+           "id":"2",
             "name":"Wyciskanie sztangi na skosie",
-            "imageUrl":"bench-incline__image",
+            "imageUrl":"incline-bench-press__image",
             "bodyPartId":1 
         },
         {
-            "id":3,
+            "id":"3",
             "name":"Uginanie ramion ze sztangą",
             "imageUrl":"barbell-curl__image",
             "bodyPartId":2
         },
         {
-            "id":4,
-            "name":"Uginanie ramion ze sztangą",
-            "imageUrl":"barbell-curl__image",
-            "bodyPartId":3
-
+            "id":"4",
+            "name":"Rozpiętki na ławce",
+            "imageUrl":"chest-pins__image",
+            "bodyPartId":1
+        },
+        {
+            "id":"5",
+            "name":"Wyciskanie hantli na ławce skośnej",
+            "imageUrl":"dumbbells-chest-press__image",
+            "bodyPartId":1
+        },
+        {
+            "id":"6",
+            "name":"Pompki na poręczach",
+            "imageUrl":"chest-dips__image",
+            "bodyPartId":1
+        },
+        {
+            "id":"7",
+            "name":"Pompki",
+            "imageUrl":"push-ups__image",
+            "bodyPartId":1
+        },
+        {
+            "id":"8",
+            "name":"Uginanie przedramion ze sztangą nachwytem",
+            "imageUrl":"barbell-curl-grip__image",
+            "bodyPartId":2
+        },
+        {
+            "id":"9",
+            "name":"Naprzemienne uginanie przedramiom z hantlami",
+            "imageUrl":"alternate-dumbbells-curl__image",
+            "bodyPartId":2
+        },
+        {
+            "id":"10",
+            "name":"Uginanie przedramion z hantlami na ławce skośnej",
+            "imageUrl":"forearm-dumbbells-incline__image",
+            "bodyPartId":2
+        },
+        {
+            "id":"11",
+            "name":"Uginanie przedramion z hantlem siedząc na ławce",
+            "imageUrl":"forearm-dumbbells-sitting__image",
+            "bodyPartId":2
         }
     ]
 }

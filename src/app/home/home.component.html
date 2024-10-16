@@ -11,21 +11,21 @@
     <div class="grid justify-items-center">
         <div class="w-5/6 min-h-56 flex flex-row bg-orange-600 shadow-lg shadow-gray-400 rounded-xl">
             <div class="w-2/3">
-                <div class="w-2/3 rounded-xl m-5 bg-gray-100/40">
-                    <p class="p-2 text-white text-base">Friday 05.07.2024</p>
+                <div class="w-3/4 rounded-xl m-4 bg-gray-100/40">
+                    <p class="p-2 text-white text-base text-nowrap lg:text-2xl">{{date | date:'EEEE dd.MM.Y'}}</p>
                 </div>
                 <div class="mx-5 mt-5">
-                    <p class="text-white text-xl font-bold">Chest Day Incoming</p>
+                    <p class="text-white text-xl font-bold lg:text-3xl">Chest Day Incoming</p>
                 </div>
                 <div class="mx-5 flex flex-col">
-                    <span class="text-white text-sm">Bench Press</span>
-                    <span class="text-white text-sm">Incline Dumbbell Press...</span>
+                    <span class="text-white text-sm lg:text-xl">Bench Press</span>
+                    <span class="text-white text-sm lg:text-xl">Incline Dumbbell Press...</span>
                 </div>
                 <div class="mx-5 mt-2 flex flex-row">
-                    <button> <!--TODO-->
+                    <a routerLink="/workout-page" routerLinkActive="active" ariaCurrentWhenActive="page"> <!--TODO-->
                         <mat-icon class="pr-8 text-white scale-125">play_circle_outline</mat-icon>
-                    </button>
-                    <p class="text-white text-lg font-semibold">Start your training</p>
+                    </a>
+                    <span class="self-end text-white text-lg font-semibold">Start your training</span>
                 </div>
             </div>
             <div class="w-1/3 grid">

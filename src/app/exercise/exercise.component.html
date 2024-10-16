@@ -1,8 +1,8 @@
 <div class="w-full min-h-full grid bg-stone-200">
     <!--Banner-->
     <div class="w-full grid">
-        <div class="w-5/6 min-h-20 grid place-self-center bg-orange-600 rounded-md">
-            <span class="text-white text-3xl font-semibold p-5">Exercises</span>
+        <div class="w-5/6 h-16 grid place-self-center bg-orange-600 rounded-md">
+            <span class="text-white text-3xl font-protest-strike pl-6 pt-3">Ćwiczenia</span>
         </div>
     </div>
     <!--All exercises list-->
@@ -11,26 +11,33 @@
             <div class="w-5/6 h-10 flex place-self-center bg-stone-300/40 shadow-lg shadow-stone-400" 
                 [ngStyle]="{'border-radius': areListsExpanded[i] ? '10px 10px 0px 0px' : '10px 10px 10px 10px'}">
                 <div class="w-full grid place-content-center">
-                    <span class="text-xl text-nowrap font-mono font-semibold">{{part}}</span>
+                    <span class="text-xl text-nowrap font-varela-round font-semibold">{{part}}</span>
                 </div>
                 <div class="w-1/3 grid">
                     <mat-icon (click)="expandListById(i)" class="text-white place-self-center">menu</mat-icon>
                 </div>
             </div>
-            <div *ngIf="areListsExpanded[i]" class="w-5/6 min-h-24 flex-col place-self-center bg-white shadow-lg shadow-stone-400">
-                <div class="flex place-content-center last:mb-2" *ngFor="let exercise of exercises">
-                    <div *ngIf="exercise.bodyPartId == i + 1" class="w-full h-24 flex bg-stone-200 mx-3 my-3">
-                        <div class="w-2/3 flex-col">
-                            <div class="w-full h-1/3 grid">
-                                <span class="grid self-end text-2xl font-mono font-bold p-2">{{exercise.id}}.</span>
+            <div *ngIf="areListsExpanded[i]" class="w-5/6 min-h-24 flex flex-col place-self-center bg-white shadow-lg shadow-stone-400">
+                <div *ngIf="bodyPartExercisesArray[i].length > 0; else lackOfExercises">
+                    <div class="flex place-content-center last:mb-2" *ngFor="let exercise of bodyPartExercisesArray[i]; index as n;">
+                        <div class="w-full min-h-24 flex bg-stone-200 mx-3 my-3">
+                            <div class="w-2/3 flex-col">
+                                <div class="w-full h-1/3 grid">
+                                    <span class="grid self-end text-2xl font-bold p-2">{{n + 1}}</span>
+                                </div>
+                                <div class="w-full h-2/3 grid">
+                                    <span class="grid self-center text-base text-pretty font-varela-round leading-4 px-2">{{exercise.name}}</span>
+                                </div>
                             </div>
-                            <div class="w-full h-2/3 grid">
-                                <span class="grid self-center text-base text-pretty leading-4 px-2">{{exercise.name}}</span>
-                            </div>
+                            <div class="w-1/3 h-full flex bg-contain bg-center bg-no-repeat" [ngStyle]="{'background-image': 'url(/assets/' + exercise.imageUrl + '.jpeg)'}"></div>
                         </div>
-                        <div class="w-1/3 h-full flex bg-bench-press__image bg-contain bg-center bg-no-repeat rounded-3xl"></div>
                     </div>
                 </div>
+                <ng-template #lackOfExercises>
+                    <div class="w-2/3 grid self-center m-3">
+                        <span class="place-self-center text-black text-2xl font-varela-round font-bold">Brak ćwiczeń</span>
+                    </div>
+                </ng-template>  
             </div>
         </div>
     </div>

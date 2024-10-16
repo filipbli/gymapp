@@ -13,6 +13,14 @@ export class ExerciseComponent implements OnInit{
   exercises: Exercise[] = [];
   bodyPart: string[] = [];
 
+  chestExercises: Exercise[] = [];
+  bicepsExercises: Exercise[] = [];
+  tricepsExercises: Exercise[] = [];
+  legsExercises: Exercise[] = [];
+  backExercises: Exercise[] = [];
+
+  bodyPartExercisesArray: Exercise[][] = [];
+
   isListExpanded = false;
 
   areListsExpanded: boolean[] = [false, false, false, false, false, false];
@@ -23,16 +31,45 @@ export class ExerciseComponent implements OnInit{
     this.bodyPart.push("Triceps");
     this.bodyPart.push("Nogi");
     this.bodyPart.push("Plecy");
+
+    this.bodyPartExercisesArray.push(this.chestExercises);
+    this.bodyPartExercisesArray.push(this.bicepsExercises);
+    this.bodyPartExercisesArray.push(this.tricepsExercises);
+    this.bodyPartExercisesArray.push(this.legsExercises);
+    this.bodyPartExercisesArray.push(this.backExercises);
   }
 
   ngOnInit(): void {
       this.getExercises();
+      this.getExercisesByBodyPart();
   }
 
   getExercises() {
     this.exercisesService.getExercises().subscribe((exercises) => this.exercises = exercises);
   }
-
+  
+  getExercisesByBodyPart() {
+    this.exercisesService.getExercises().subscribe((exercises) => {
+      exercises.forEach(e => {
+        if(e.bodyPartId == 1) {
+          this.chestExercises.push(e);
+        }
+        if(e.bodyPartId == 2) {
+          this.bicepsExercises.push(e);
+        }
+        if(e.bodyPartId == 3) {
+          this.tricepsExercises.push(e);
+        }
+        if(e.bodyPartId == 4) {
+          this.legsExercises.push(e);
+        }
+        if(e.bodyPartId == 5) {
+          this.backExercises.push(e);
+        }
+      })
+    })
+  }
+  
   expandList() {
     if(this.isListExpanded) {
       this.isListExpanded = false;
