@@ -14,6 +14,7 @@ import { ToolbarHeaderComponent } from './toolbar-header/toolbar-header.componen
 import { ExerciseComponent } from './exercise/exercise.component';
 import { UserComponent } from './user/user.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     MatSlideToggleModule,
     MatToolbarModule,
     MatIconModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

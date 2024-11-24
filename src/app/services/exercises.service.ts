@@ -34,4 +34,16 @@ export class ExercisesService {
     return this.httpClient.get<Exercise>(this.exercisesUrl + '/' + index.toString());
   }
 
+  getExerciseByBodyPart(array: Exercise[][]) {
+    this.getExercises().subscribe((exercises) => {
+      exercises.forEach(e => {
+        if(e.bodyPartId == 1) array[0].push(e);
+        if(e.bodyPartId == 2) array[1].push(e);
+        if(e.bodyPartId == 3) array[2].push(e);
+        if(e.bodyPartId == 4) array[3].push(e);
+        if(e.bodyPartId == 5) array[4].push(e);
+      })
+    })
+  }
+
 }

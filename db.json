@@ -1,70 +1,1695 @@
 {
-    "exercises": [
-        {
-            "id":"1",
-            "name":"Wyciskanie sztangi leżąc",
-            "imageUrl":"bench-press__image",
-            "bodyPartId":1
-        },
-        {
-           "id":"2",
-            "name":"Wyciskanie sztangi na skosie",
-            "imageUrl":"incline-bench-press__image",
-            "bodyPartId":1 
-        },
-        {
-            "id":"3",
-            "name":"Uginanie ramion ze sztangą",
-            "imageUrl":"barbell-curl__image",
-            "bodyPartId":2
-        },
-        {
-            "id":"4",
-            "name":"Rozpiętki na ławce",
-            "imageUrl":"chest-pins__image",
-            "bodyPartId":1
-        },
-        {
-            "id":"5",
-            "name":"Wyciskanie hantli na ławce skośnej",
-            "imageUrl":"dumbbells-chest-press__image",
-            "bodyPartId":1
-        },
-        {
-            "id":"6",
-            "name":"Pompki na poręczach",
-            "imageUrl":"chest-dips__image",
-            "bodyPartId":1
-        },
-        {
-            "id":"7",
-            "name":"Pompki",
-            "imageUrl":"push-ups__image",
-            "bodyPartId":1
-        },
-        {
-            "id":"8",
-            "name":"Uginanie przedramion ze sztangą nachwytem",
-            "imageUrl":"barbell-curl-grip__image",
-            "bodyPartId":2
-        },
-        {
-            "id":"9",
-            "name":"Naprzemienne uginanie przedramiom z hantlami",
-            "imageUrl":"alternate-dumbbells-curl__image",
-            "bodyPartId":2
-        },
-        {
-            "id":"10",
-            "name":"Uginanie przedramion z hantlami na ławce skośnej",
-            "imageUrl":"forearm-dumbbells-incline__image",
-            "bodyPartId":2
-        },
-        {
-            "id":"11",
-            "name":"Uginanie przedramion z hantlem siedząc na ławce",
-            "imageUrl":"forearm-dumbbells-sitting__image",
-            "bodyPartId":2
-        }
-    ]
+  "exercises": [
+    {
+      "id": "1",
+      "name": "Wyciskanie sztangi leżąc",
+      "imageUrl": "bench-press__image",
+      "bodyPartId": 1
+    },
+    {
+      "id": "2",
+      "name": "Wyciskanie sztangi na skosie",
+      "imageUrl": "incline-bench-press__image",
+      "bodyPartId": 1
+    },
+    {
+      "id": "3",
+      "name": "Uginanie ramion ze sztangą",
+      "imageUrl": "ezbarbell-curl__image",
+      "bodyPartId": 2
+    },
+    {
+      "id": "4",
+      "name": "Rozpiętki na ławce",
+      "imageUrl": "incline-dumbbells-flys__image",
+      "bodyPartId": 1
+    },
+    {
+      "id": "5",
+      "name": "Wyciskanie hantli na ławce skośnej",
+      "imageUrl": "dumbbells-chest-press__image",
+      "bodyPartId": 1
+    },
+    {
+      "id": "6",
+      "name": "Pompki na poręczach",
+      "imageUrl": "chest-dips__image",
+      "bodyPartId": 1
+    },
+    {
+      "id": "7",
+      "name": "Pompki",
+      "imageUrl": "push-ups__image",
+      "bodyPartId": 1
+    },
+    {
+      "id": "8",
+      "name": "Uginanie przedramion ze sztangą nachwytem",
+      "imageUrl": "",
+      "bodyPartId": 2
+    },
+    {
+      "id": "9",
+      "name": "Naprzemienne uginanie przedramiom z hantlami",
+      "imageUrl": "alternate-dumbbells-curl__image",
+      "bodyPartId": 2
+    },
+    {
+      "id": "10",
+      "name": "Uginanie przedramion z hantlami na ławce skośnej",
+      "imageUrl": "alternate-incline-hammer-curl__image",
+      "bodyPartId": 2
+    },
+    {
+      "id": "11",
+      "name": "Uginanie przedramion z hantlem siedząc na ławce",
+      "imageUrl": "dumbbells-curl-sitting__image",
+      "bodyPartId": 2
+    },
+    {
+      "id": "12",
+      "name": "Prostowanie ramion z hantlem",
+      "imageUrl": "",
+      "bodyPartId": 3
+    },
+    {
+      "id": "13",
+      "name": "Wyciskanie francuskie sztangi leżąc",
+      "imageUrl": "",
+      "bodyPartId": 3
+    },
+    {
+      "id": "14",
+      "name": "Wyciskanie na ławce wąskim podchwytem",
+      "imageUrl": "",
+      "bodyPartId": 3
+    },
+    {
+      "id": "15",
+      "name": "Przysiad bułgarski z hantlami",
+      "imageUrl": "",
+      "bodyPartId": 4
+    },
+    {
+      "id": "16",
+      "name": "Martwy ciąg",
+      "imageUrl": "",
+      "bodyPartId": 4
+    },
+    {
+      "id": "17",
+      "name": "Przysiady z hantlem",
+      "imageUrl": "",
+      "bodyPartId": 4
+    },
+    {
+      "id": "18",
+      "name": "Wiosłowanie sztangą w pochyleniu",
+      "imageUrl": "",
+      "bodyPartId": 5
+    },
+    {
+      "id": "19",
+      "name": "Podciąganie na drążku szerokim chwytem",
+      "imageUrl": "",
+      "bodyPartId": 5
+    },
+    {
+      "id": "20",
+      "name": "Wyprosty kolan na maszynie siedząc",
+      "imageUrl": "",
+      "bodyPartId": 4
+    },
+    {
+      "id": "21",
+      "name": "Wspięcia na palce z ciężarem",
+      "imageUrl": "",
+      "bodyPartId": 4
+    },
+    {
+      "id": "22",
+      "name": "Uginanie nóg w leżeniu na maszynie",
+      "imageUrl": "",
+      "bodyPartId": 4
+    },
+    {
+      "id": "23",
+      "name": "Unoszenie hantli bokiem",
+      "imageUrl": "",
+      "bodyPartId": 5
+    },
+    {
+      "id": "24",
+      "name": "Wyciskanie z hantlami na siedząco",
+      "imageUrl": "",
+      "bodyPartId": 5
+    },
+    {
+      "id": "25",
+      "name": "Wiosłowanie hantlami jednorącz",
+      "imageUrl": "",
+      "bodyPartId": 5
+    }
+  ],
+  "workout": [
+    {
+      "id": "1",
+      "exerciseId": "1",
+      "date": "16.10.2024",
+      "weight": 70,
+      "reps": 8,
+      "series": 3,
+      "isCompleted": false
+    },
+    {
+      "id": "2",
+      "exerciseId": "2",
+      "date": "16.10.2024",
+      "weight": 42,
+      "reps": 8,
+      "series": 3,
+      "isCompleted": false
+    },
+    {
+      "id": "3",
+      "exerciseId": "2",
+      "date": "16.10.2024",
+      "weight": 42,
+      "reps": 8,
+      "series": 3,
+      "isCompleted": false
+    },
+    {
+      "id": "4",
+      "exerciseId": "2",
+      "date": "16.10.2024",
+      "weight": 42,
+      "reps": 8,
+      "series": 3,
+      "isCompleted": false
+    },
+    {
+      "id": "5",
+      "exerciseId": "1",
+      "date": "19.10.2024",
+      "weight": 65,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "6",
+      "exerciseId": "1",
+      "date": "22.10.2024",
+      "weight": 50,
+      "series": 4,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "7",
+      "exerciseId": "4",
+      "date": "20.10.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "8",
+      "exerciseId": "2",
+      "date": "27.10.2024",
+      "weight": 35,
+      "series": 4,
+      "reps": 9,
+      "isCompleted": false
+    },
+    {
+      "id": "9",
+      "exerciseId": "7",
+      "date": "20.10.2024",
+      "weight": 0,
+      "series": 3,
+      "reps": 20,
+      "isCompleted": false
+    },
+    {
+      "id": "10",
+      "exerciseId": "1",
+      "date": "09.06.2024",
+      "weight": 67,
+      "series": 3,
+      "reps": 6,
+      "isCompleted": false
+    },
+    {
+      "id": "11",
+      "exerciseId": "2",
+      "date": "09.06.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "12",
+      "exerciseId": "4",
+      "date": "09.06.2024",
+      "weight": 8,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "13",
+      "exerciseId": "12",
+      "date": "09.06.2024",
+      "weight": 8,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "14",
+      "exerciseId": "14",
+      "date": "09.06.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "15",
+      "exerciseId": "13",
+      "date": "09.06.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "16",
+      "exerciseId": "20",
+      "date": "09.06.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "17",
+      "exerciseId": "22",
+      "date": "09.06.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "18",
+      "exerciseId": "17",
+      "date": "09.06.2024",
+      "weight": 16,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "19",
+      "exerciseId": "18",
+      "date": "12.06.2024",
+      "weight": 52,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "20",
+      "exerciseId": "25",
+      "date": "12.06.2024",
+      "weight": 12,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "21",
+      "exerciseId": "23",
+      "date": "12.06.2024",
+      "weight": 8,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "22",
+      "exerciseId": "3",
+      "date": "12.06.2024",
+      "weight": 32,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "23",
+      "exerciseId": "9",
+      "date": "12.06.2024",
+      "weight": 8,
+      "series": 2,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "24",
+      "exerciseId": "1",
+      "date": "16.06.2024",
+      "weight": 71,
+      "series": 3,
+      "reps": 6,
+      "isCompleted": false
+    },
+    {
+      "id": "25",
+      "exerciseId": "2",
+      "date": "16.06.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "26",
+      "exerciseId": "4",
+      "date": "16.06.2024",
+      "weight": 8,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "27",
+      "exerciseId": "12",
+      "date": "16.06.2024",
+      "weight": 8,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "28",
+      "exerciseId": "14",
+      "date": "16.06.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "29",
+      "exerciseId": "13",
+      "date": "16.06.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "30",
+      "exerciseId": "18",
+      "date": "19.06.2024",
+      "weight": 52,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "31",
+      "exerciseId": "25",
+      "date": "19.06.2024",
+      "weight": 12,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "32",
+      "exerciseId": "23",
+      "date": "19.06.2024",
+      "weight": 8,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "33",
+      "exerciseId": "20",
+      "date": "19.06.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "34",
+      "exerciseId": "22",
+      "date": "19.06.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "35",
+      "exerciseId": "17",
+      "date": "19.06.2024",
+      "weight": 16,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "36",
+      "exerciseId": "21",
+      "date": "19.06.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "37",
+      "exerciseId": "18",
+      "date": "19.06.2024",
+      "weight": 52,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "38",
+      "exerciseId": "23",
+      "date": "19.06.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "39",
+      "exerciseId": "1",
+      "date": "19.06.2024",
+      "weight": 71,
+      "series": 3,
+      "reps": 6,
+      "isCompleted": false
+    },
+    {
+      "id": "40",
+      "exerciseId": "4",
+      "date": "19.06.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "41",
+      "exerciseId": "19",
+      "date": "26.06.2024",
+      "weight": 0,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "42",
+      "exerciseId": "18",
+      "date": "26.06.2024",
+      "weight": 52,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "43",
+      "exerciseId": "23",
+      "date": "26.06.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "44",
+      "exerciseId": "25",
+      "date": "26.06.2024",
+      "weight": 14,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "45",
+      "exerciseId": "10",
+      "date": "26.06.2024",
+      "weight": 8,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "46",
+      "exerciseId": "3",
+      "date": "26.06.2024",
+      "weight": 27,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "47",
+      "exerciseId": "12",
+      "date": "26.06.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "48",
+      "exerciseId": "14",
+      "date": "26.06.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "49",
+      "exerciseId": "13",
+      "date": "26.06.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "50",
+      "exerciseId": "1",
+      "date": "02.07.2024",
+      "weight": 67,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "51",
+      "exerciseId": "2",
+      "date": "02.07.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "52",
+      "exerciseId": "4",
+      "date": "02.07.2024",
+      "weight": 8,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "53",
+      "exerciseId": "20",
+      "date": "02.07.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "54",
+      "exerciseId": "22",
+      "date": "02.07.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "55",
+      "exerciseId": "21",
+      "date": "02.07.2024",
+      "weight": 35,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "56",
+      "exerciseId": "18",
+      "date": "05.07.2024",
+      "weight": 52,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "57",
+      "exerciseId": "23",
+      "date": "05.07.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "58",
+      "exerciseId": "25",
+      "date": "05.07.2024",
+      "weight": 14,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "59",
+      "exerciseId": "12",
+      "date": "11.07.2024",
+      "weight": 12,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "60",
+      "exerciseId": "14",
+      "date": "11.07.2024",
+      "weight": 42,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "61",
+      "exerciseId": "13",
+      "date": "11.07.2024",
+      "weight": 17.5,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "62",
+      "exerciseId": "10",
+      "date": "11.07.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "63",
+      "exerciseId": "3",
+      "date": "11.07.2024",
+      "weight": 30,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "64",
+      "exerciseId": "7",
+      "date": "16.07.2024",
+      "weight": 0,
+      "series": 0,
+      "reps": 0,
+      "isCompleted": false
+    },
+    {
+      "id": "65",
+      "exerciseId": "18",
+      "date": "19.07.2024",
+      "weight": 52,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "66",
+      "exerciseId": "23",
+      "date": "19.07.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "67",
+      "exerciseId": "25",
+      "date": "19.07.2024",
+      "weight": 12,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "68",
+      "exerciseId": "13",
+      "date": "23.07.2024",
+      "weight": 20,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "69",
+      "exerciseId": "12",
+      "date": "23.07.2024",
+      "weight": 12,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "70",
+      "exerciseId": "14",
+      "date": "23.07.2024",
+      "weight": 42,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "71",
+      "exerciseId": "10",
+      "date": "23.07.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "72",
+      "exerciseId": "3",
+      "date": "23.07.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "73",
+      "exerciseId": "1",
+      "date": "28.07.2024",
+      "weight": 67,
+      "series": 3,
+      "reps": 7,
+      "isCompleted": false
+    },
+    {
+      "id": "74",
+      "exerciseId": "2",
+      "date": "28.07.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "75",
+      "exerciseId": "4",
+      "date": "28.07.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "76",
+      "exerciseId": "20",
+      "date": "28.07.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "77",
+      "exerciseId": "22",
+      "date": "28.07.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "78",
+      "exerciseId": "21",
+      "date": "28.07.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "79",
+      "exerciseId": "3",
+      "date": "06.08.2024",
+      "weight": 27,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "80",
+      "exerciseId": "10",
+      "date": "06.08.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "81",
+      "exerciseId": "12",
+      "date": "06.08.2024",
+      "weight": 12,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "82",
+      "exerciseId": "13",
+      "date": "06.08.2024",
+      "weight": 17,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "83",
+      "exerciseId": "14",
+      "date": "06.08.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "84",
+      "exerciseId": "18",
+      "date": "11.08.2024",
+      "weight": 52,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "85",
+      "exerciseId": "23",
+      "date": "11.08.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "86",
+      "exerciseId": "25",
+      "date": "11.08.2024",
+      "weight": 12,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "87",
+      "exerciseId": "20",
+      "date": "11.08.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "88",
+      "exerciseId": "21",
+      "date": "11.08.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "89",
+      "exerciseId": "22",
+      "date": "11.08.2024",
+      "weight": 20,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "90",
+      "exerciseId": "3",
+      "date": "13.08.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "91",
+      "exerciseId": "10",
+      "date": "13.08.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "92",
+      "exerciseId": "13",
+      "date": "13.08.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "93",
+      "exerciseId": "1",
+      "date": "15.08.2024",
+      "weight": 67,
+      "series": 3,
+      "reps": 6,
+      "isCompleted": false
+    },
+    {
+      "id": "94",
+      "exerciseId": "2",
+      "date": "15.08.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "95",
+      "exerciseId": "4",
+      "date": "15.08.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "96",
+      "exerciseId": "10",
+      "date": "22.08.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "97",
+      "exerciseId": "3",
+      "date": "22.08.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "98",
+      "exerciseId": "20",
+      "date": "22.08.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 14,
+      "isCompleted": false
+    },
+    {
+      "id": "99",
+      "exerciseId": "21",
+      "date": "22.08.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "100",
+      "exerciseId": "18",
+      "date": "24.08.2024",
+      "weight": 47,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "101",
+      "exerciseId": "25",
+      "date": "24.08.2024",
+      "weight": 14,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "102",
+      "exerciseId": "12",
+      "date": "24.08.2024",
+      "weight": 12,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "103",
+      "exerciseId": "14",
+      "date": "24.08.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "104",
+      "exerciseId": "1",
+      "date": "30.08.2024",
+      "weight": 62,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "105",
+      "exerciseId": "4",
+      "date": "30.08.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "106",
+      "exerciseId": "3",
+      "date": "30.08.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "107",
+      "exerciseId": "10",
+      "date": "30.08.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "108",
+      "exerciseId": "18",
+      "date": "02.09.2024",
+      "weight": 57,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "109",
+      "exerciseId": "23",
+      "date": "02.09.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "110",
+      "exerciseId": "25",
+      "date": "02.09.2024",
+      "weight": 14,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "111",
+      "exerciseId": "20",
+      "date": "02.09.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "112",
+      "exerciseId": "22",
+      "date": "02.09.2024",
+      "weight": 20,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "113",
+      "exerciseId": "21",
+      "date": "02.09.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "114",
+      "exerciseId": "13",
+      "date": "02.09.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "115",
+      "exerciseId": "12",
+      "date": "02.09.2024",
+      "weight": 14,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "116",
+      "exerciseId": "1",
+      "date": "09.09.2024",
+      "weight": 62,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "117",
+      "exerciseId": "2",
+      "date": "09.09.2024",
+      "weight": 42,
+      "series": 3,
+      "reps": 6,
+      "isCompleted": false
+    },
+    {
+      "id": "118",
+      "exerciseId": "4",
+      "date": "09.09.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "119",
+      "exerciseId": "10",
+      "date": "09.09.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "120",
+      "exerciseId": "8",
+      "date": "09.09.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "121",
+      "exerciseId": "18",
+      "date": "14.09.2024",
+      "weight": 52,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "122",
+      "exerciseId": "23",
+      "date": "14.09.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "123",
+      "exerciseId": "25",
+      "date": "14.09.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "124",
+      "exerciseId": "16",
+      "date": "16.09.2024",
+      "weight": 52,
+      "series": 3,
+      "reps": 3,
+      "isCompleted": false
+    },
+    {
+      "id": "125",
+      "exerciseId": "15",
+      "date": "16.09.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 6,
+      "isCompleted": false
+    },
+    {
+      "id": "126",
+      "exerciseId": "21",
+      "date": "16.09.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "127",
+      "exerciseId": "10",
+      "date": "19.09.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "128",
+      "exerciseId": "3",
+      "date": "19.09.2024",
+      "weight": 27,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "129",
+      "exerciseId": "8",
+      "date": "19.09.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "130",
+      "exerciseId": "14",
+      "date": "19.09.2024",
+      "weight": 42,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "131",
+      "exerciseId": "13",
+      "date": "19.09.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "132",
+      "exerciseId": "16",
+      "date": "22.09.2024",
+      "weight": 52,
+      "series": 3,
+      "reps": 6,
+      "isCompleted": false
+    },
+    {
+      "id": "133",
+      "exerciseId": "21",
+      "date": "22.09.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "134",
+      "exerciseId": "15",
+      "date": "22.09.2024",
+      "weight": 12,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "135",
+      "exerciseId": "18",
+      "date": "25.09.2024",
+      "weight": 57,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "136",
+      "exerciseId": "25",
+      "date": "25.09.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "137",
+      "exerciseId": "23",
+      "date": "25.09.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "138",
+      "exerciseId": "1",
+      "date": "29.09.2024",
+      "weight": 67,
+      "series": 3,
+      "reps": 6,
+      "isCompleted": false
+    },
+    {
+      "id": "139",
+      "exerciseId": "2",
+      "date": "29.09.2024",
+      "weight": 42,
+      "series": 3,
+      "reps": 6,
+      "isCompleted": false
+    },
+    {
+      "id": "140",
+      "exerciseId": "4",
+      "date": "29.09.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "141",
+      "exerciseId": "8",
+      "date": "29.09.2024",
+      "weight": 22,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "142",
+      "exerciseId": "16",
+      "date": "30.09.2024",
+      "weight": 52,
+      "series": 3,
+      "reps": 6,
+      "isCompleted": false
+    },
+    {
+      "id": "143",
+      "exerciseId": "21",
+      "date": "30.09.2024",
+      "weight": 37,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "144",
+      "exerciseId": "15",
+      "date": "30.09.2024",
+      "weight": 12,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "145",
+      "exerciseId": "18",
+      "date": "30.09.2024",
+      "weight": 52,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "146",
+      "exerciseId": "25",
+      "date": "30.09.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "147",
+      "exerciseId": "23",
+      "date": "30.09.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "148",
+      "exerciseId": "3",
+      "date": "02.10.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "149",
+      "exerciseId": "10",
+      "date": "02.10.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "150",
+      "exerciseId": "13",
+      "date": "02.10.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "151",
+      "exerciseId": "1",
+      "date": "06.10.2024",
+      "weight": 67,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "152",
+      "exerciseId": "2",
+      "date": "06.10.2024",
+      "weight": 42,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "153",
+      "exerciseId": "4",
+      "date": "06.10.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "154",
+      "exerciseId": "8",
+      "date": "06.10.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "155",
+      "exerciseId": "10",
+      "date": "26.10.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "156",
+      "exerciseId": "3",
+      "date": "26.10.2024",
+      "weight": 25,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "157",
+      "exerciseId": "13",
+      "date": "26.10.2024",
+      "weight": 15,
+      "series": 3,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "158",
+      "exerciseId": "14",
+      "date": "26.10.2024",
+      "weight": 42,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "159",
+      "exerciseId": "12",
+      "date": "26.10.2024",
+      "weight": 12,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "160",
+      "exerciseId": "8",
+      "date": "26.10.2024",
+      "weight": 15,
+      "series": 2,
+      "reps": 12,
+      "isCompleted": false
+    },
+    {
+      "id": "161",
+      "exerciseId": "0",
+      "date": "30.10.2024",
+      "weight": 57,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "162",
+      "exerciseId": "23",
+      "date": "30.10.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "163",
+      "exerciseId": "24",
+      "date": "30.10.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "164",
+      "exerciseId": "1",
+      "date": "06.10.2024",
+      "weight": 12,
+      "series": 2,
+      "reps": 4,
+      "isCompleted": false
+    },
+    {
+      "id": "165",
+      "exerciseId": "1",
+      "date": "06.10.2024",
+      "weight": 12,
+      "series": 1,
+      "reps": 9,
+      "isCompleted": false
+    },
+    {
+      "id": "166",
+      "exerciseId": "1",
+      "date": "02.11.2024",
+      "weight": 67,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "167",
+      "exerciseId": "2",
+      "date": "02.11.2024",
+      "weight": 42,
+      "series": 3,
+      "reps": 8,
+      "isCompleted": false
+    },
+    {
+      "id": "168",
+      "exerciseId": "4",
+      "date": "02.11.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "169",
+      "exerciseId": "24",
+      "date": "02.11.2024",
+      "weight": 10,
+      "series": 3,
+      "reps": 10,
+      "isCompleted": false
+    },
+    {
+      "id": "171",
+      "exerciseId": "1",
+      "date": "07.11.2024",
+      "weight": 12,
+      "reps": 1,
+      "series": 1,
+      "isCompleted": true
+    },
+    {
+      "id": "172",
+      "exerciseId": "1",
+      "date": "09.11.2024",
+      "weight": 12,
+      "series": 1,
+      "reps": 2,
+      "isCompleted": false
+    }
+  ]
 }
